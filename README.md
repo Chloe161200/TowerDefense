@@ -14,7 +14,7 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 - 🎨 **Visual effects and animations** built with JavaFX  
 - 🗄️ **Local SQLite database** for high scores
 
-![Leaderboard](https://github.com/Chloe161200/TowerDefense/blob/aeaf8429822cde37bbca18786ee9b3a7399addd2/src/main/resources/images/game2.png "Game image leaderboard")
+![Leaderboard](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game1.png?raw=true "Game image leaderboard")
 
 ## Requirements
 
@@ -75,6 +75,7 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
 
 
 
