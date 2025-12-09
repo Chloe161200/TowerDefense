@@ -1,5 +1,3 @@
-# Tower Defense Game
-
 A JavaFX-based tower defense game project created for CSC-2592-98533, where you defend against waves of enemies using different types of towers.
 
 **Initial game with two towers placed**
@@ -78,4 +76,5 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
 
