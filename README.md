@@ -2,7 +2,8 @@
 
 A JavaFX-based tower defense game project created for CSC-2592-98533, where you defend against waves of enemies using different types of towers.
 
-![Initial Game Image](https://raw.githubusercontent.com/Chloe161200/master/main/resources/images/game1.png "Game image with towers placed")
+**Initial game with two towers placed**
+![Initial Game Image](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game1.png?raw=true "Game image with towers placed")
 
 ## Features
 
@@ -14,7 +15,8 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 - 🎨 **Visual effects and animations** built with JavaFX  
 - 🗄️ **Local SQLite database** for high scores
 
-![Leaderboard](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game1.png?raw=true "Game image leaderboard")
+**Showcasing the Leaderboard**
+![Leaderboard](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game2.png?raw=true "Game image leaderboard")
 
 ## Requirements
 
@@ -40,8 +42,6 @@ mvn javafx:run
 - Place towers by selecting them from the tower panel
 - Monitor your health, money, and score in the game UI
 
-
-
 ## Tower Types
 
 1. Basic Tower
@@ -59,6 +59,9 @@ mvn javafx:run
    - Cost: 150
    - Short range and low damage
    - Very fast attack speed
+  
+**Each tower has their own radius**
+![Tower Radius](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game3.png?raw=true "Game image with tower radius")
 
 ## Enemy Types
 
@@ -75,6 +78,7 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
 
 
 
