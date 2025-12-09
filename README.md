@@ -4,13 +4,13 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 
 ## Features
 
-- Multiple tower types with different abilities
-- Advanced enemy system with special properties (Camo, Armored, Regenerating)
-- Wave-based progression with increasing difficulty
-- Interactive tower placement and management
-- Score tracking with leaderboard
-- Visual effects and animations
-- Local SQLite database for high scores
+- 🏰 **Multiple tower types** with unique ranges, damage, and abilities  
+- 👾 **Advanced enemy system** with Camo, Armored, Regenerating, and Boss enemies  
+- 🌊 **Wave-based progression** with increasing difficulty  
+- 🧱 **Interactive tower placement** and in-game management tools  
+- 📈 **Score tracking & leaderboard** backed by a local SQLite database  
+- 🎨 **Visual effects and animations** built with JavaFX  
+- 🗄️ **Local SQLite database** for high scores
 
 ## Requirements
 
