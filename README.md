@@ -44,20 +44,20 @@ mvn javafx:run
 
 ## Tower Types
 
-1. Basic Tower
+1. **Basic Tower**
    - Cost: 50
    - Balanced range and damage
    - Medium attack speed
 
-2. Sniper Tower
+2. **Sniper Tower**
    - Cost: 100
-   - Long range and high damage
+   - Very long range, high damage
    - Can detect camo enemies
    - Slow attack speed
 
-3. Machine Gun Tower
+3. **Machine Gun Tower**
    - Cost: 150
-   - Short range and low damage
+   - Short range, low damage per shot
    - Very fast attack speed
   
 **Each tower has their own radius**
@@ -65,11 +65,11 @@ mvn javafx:run
 
 ## Enemy Types
 
-- Normal: Basic enemies
-- Camo: Can only be detected by certain towers
-- Armored: Takes reduced damage
-- Regenerating: Heals over time
-- Boss: Appears every 10 waves with multiple special properties
+- **Normal**: Basic enemies
+- **Camo**: Can only be detected by certain towers
+- **Armored**: Takes reduced damage
+- **Regenerating**: Heals over time
+- **Boss**: Appears every 10 waves with multiple special properties
 
 ## Game Rules
 
@@ -78,10 +78,3 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
-
-
-
-
-
-
-
