@@ -60,7 +60,7 @@ mvn javafx:run
    - Short range, low damage per shot
    - Very fast attack speed
   
-**Each tower has their own radius**
+**Each tower has its own radius**
 ![Tower Radius](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game3.png?raw=true "Game image with tower radius")
 
 ## Enemy Types
@@ -78,3 +78,4 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
