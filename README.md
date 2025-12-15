@@ -1,14 +1,14 @@
 A JavaFX-based tower defense game project created for CSC-2592-98533, where you defend against waves of enemies using different types of towers.
 
+**Initial game with two towers placed**
+![Initial Game Image](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game1.png?raw=true "Game image with towers placed")
+
 ## Development Team
 
 - **Jayden**: Base Code, Git Hub, & AI
 - **Joe**: UI & Game Effects
 - **Chloe**: Tester & Website Developer
 - **Charles**: Tester & UI Elements
-
-**Initial game with two towers placed**
-![Initial Game Image](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game1.png?raw=true "Game image with towers placed")
 
 ## Features
 
@@ -83,3 +83,4 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
