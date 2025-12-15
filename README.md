@@ -54,6 +54,8 @@ mvn javafx:run
    - Cost: 50
    - Balanced range and damage
    - Medium attack speed
+  
+![Basic Tower](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/Basic Tower.gif?raw=true "Game image with tower radius")
 
 2. **Sniper Tower**
    - Cost: 100
@@ -84,6 +86,7 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
 
 
 
