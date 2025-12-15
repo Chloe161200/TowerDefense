@@ -10,6 +10,7 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 - **Chloe**: Tester & Website Developer
 - **Charles**: Tester & UI Elements
 
+
 ## Features
 
 - 🏰 **Multiple tower types** with unique ranges, damage, and abilities  
@@ -83,5 +84,6 @@ mvn javafx:run
 - Earn money by defeating enemies
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
+
 
 
