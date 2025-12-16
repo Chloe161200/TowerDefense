@@ -30,7 +30,7 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 - JavaFX
 - Maven
 
-## How to Run
+## How to Run the game in Visual Studio Code
 
 1. Clone this repository
 2. Navigate to the project directory
@@ -136,6 +136,7 @@ public Tower(double x, double y, String type, double mapWidth, double mapHeight)
 - Expand the **enemy variety**, including enemies that split when defeated or temporarily disable towers
 - Improve **visual effects and animations** to better show enemy abilities and tower attacks
 - Add **sound effects and background music** to make gameplay more immersive
+
 
 
 
