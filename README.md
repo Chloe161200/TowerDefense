@@ -69,6 +69,48 @@ mvn javafx:run
 **Each tower has its own radius**
 ![Tower Radius](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game3.png?raw=true "Game image with tower radius")
 
+This code shows how different tower types are created and configured using a single Tower constructor. Based on the tower type, the constructor assigns values such as cost, range, damage, attack speed, and special abilities like camo detection, while also loading the correct image and visual effects. This approach makes it easy to manage multiple tower behaviors while keeping the code organized and reusable.
+
+```bash
+public Tower(double x, double y, String type, double mapWidth, double mapHeight) {
+   this.x = x;
+   this.y = y;
+   this.towerType = type;
+   this.towerSize = mapHeight * 0.05;
+   String imagePath;
+   switch (type.toLowerCase()) {
+      case "sniper":
+         this.cost = 100;
+         this.range = 2.0 * Math.min(mapWidth, mapHeight) * 0.2;
+         this.damage = 50.0;
+         this.attackSpeed = 0.5;
+         this.projectileColor = Color.RED;
+         imagePath = this.getClass().getClassLoader().getResource("images/sniper_tower.png").toString();
+         this.sprite = new Image(imagePath);
+         this.canSeeCamo = true;
+         break;
+      case "machine":
+         this.cost = 150;
+         this.range = 1.0 * Math.min(mapWidth, mapHeight) * 0.2;
+         this.damage = 10.0;
+         this.attackSpeed = 3.0;
+         this.projectileColor = Color.LIGHTGREEN;
+         imagePath = this.getClass().getClassLoader().getResource("images/rapid_tower.png").toString();
+         this.sprite = new Image(imagePath);
+         this.canSeeCamo = false;
+         break;
+      default:
+         this.cost = 50;
+         this.range = 1.5 * Math.min(mapWidth, mapHeight) * 0.2;
+         this.damage = 20.0;
+         this.attackSpeed = 1.0;
+         imagePath = this.getClass().getClassLoader().getResource("images/basic_tower.png").toString();
+         this.sprite = new Image(imagePath);
+         this.projectileColor = Color.CYAN;
+         this.canSeeCamo = false;
+}
+```
+
 ## Enemy Types
 
 - **Normal**: Basic enemies
@@ -92,6 +134,7 @@ mvn javafx:run
 - Expand the **enemy variety**, including enemies that split when defeated or temporarily disable towers
 - Improve **visual effects and animations** to better show enemy abilities and tower attacks
 - Add **sound effects and background music** to make gameplay more immersive
+
 
 
 
