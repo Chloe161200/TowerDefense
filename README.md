@@ -10,7 +10,6 @@ A JavaFX-based tower defense game project created for CSC-2592-98533, where you 
 - **Chloe**: Tester & Website Developer
 - **Charles**: Tester & UI Elements
 
-
 ## Features
 
 - 🏰 **Multiple tower types** with unique ranges, damage, and abilities  
@@ -134,12 +133,4 @@ public Tower(double x, double y, String type, double mapWidth, double mapHeight)
 - Expand the **enemy variety**, including enemies that split when defeated or temporarily disable towers
 - Improve **visual effects and animations** to better show enemy abilities and tower attacks
 - Add **sound effects and background music** to make gameplay more immersive
-
-
-
-
-
-
-
-
 
