@@ -85,15 +85,13 @@ mvn javafx:run
 - Place towers strategically to handle different enemy types
 - Try to achieve the highest score possible!
 
+## Future Work
 
-
-
-
-
-
-
-
-
+- Add **tower upgrade systems** so players can improve damage, range, or special abilities
+- Introduce **new tower types**, such as support towers that boost nearby towers or slow enemies
+- Expand the **enemy variety**, including enemies that split when defeated or temporarily disable towers
+- Improve **visual effects and animations** to better show enemy abilities and tower attacks
+- Add **sound effects and background music** to make gameplay more immersive
 
 
 
