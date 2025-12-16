@@ -69,6 +69,8 @@ mvn javafx:run
 **Each tower has its own radius**
 ![Tower Radius](https://github.com/Chloe161200/TowerDefense/blob/main/src/main/resources/images/game3.png?raw=true "Game image with tower radius")
 
+## Tower Constructor - Code
+
 This code shows how different tower types are created and configured using a single Tower constructor. Based on the tower type, the constructor assigns values such as cost, range, damage, attack speed, and special abilities like camo detection, while also loading the correct image and visual effects. This approach makes it easy to manage multiple tower behaviors while keeping the code organized and reusable.
 
 ```bash
@@ -134,6 +136,7 @@ public Tower(double x, double y, String type, double mapWidth, double mapHeight)
 - Expand the **enemy variety**, including enemies that split when defeated or temporarily disable towers
 - Improve **visual effects and animations** to better show enemy abilities and tower attacks
 - Add **sound effects and background music** to make gameplay more immersive
+
 
 
 
